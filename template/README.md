@@ -15,12 +15,6 @@
 [![buy me a coffee](https://badgen.net/badge/buy%20me%20a/coffee/a71)](https://patreon.com/<%= patreon %>)
 <% } -%>
 
-## Install
-
-```bash
-<% if (context.npmClient === 'yarn') { %>yarn add<% } else { %>npm i<% } %> <%= name %>
-```
-
 ## Contributing
 
 1. Fork it!
