@@ -9,7 +9,7 @@ module.exports = {
       {
         name: 'description',
         message: 'How would you describe the new project',
-        default: 'My awesome project'
+        default: `My ${require('superb')()} project`
       },
       {
         name: 'author',
@@ -45,6 +45,12 @@ module.exports = {
         choices: ['xo', 'standard', 'disable']
       },
       {
+        name: 'compile',
+        message: 'Do you need to compile ES2015 code',
+        type: 'confirm',
+        default: false
+      },
+      {
         name: 'badges',
         message: 'Choose the badge you wanna show in README.md',
         type: 'checkbox',
@@ -76,7 +82,7 @@ module.exports = {
       {
         name: 'patreon',
         message: 'What is your Patreon username',
-        default: ({ username }) => username,
+        default: 'username',
         store: true,
         when: ({ badges }) => badges.includes('patreon')
       },
@@ -91,7 +97,11 @@ module.exports = {
     return [
       {
         type: 'add',
-        files: '**'
+        files: '**',
+        filters: {
+          'src/**': 'compile',
+          'index.js': '!compile'
+        }
       },
       {
         type: 'move',
