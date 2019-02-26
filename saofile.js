@@ -1,3 +1,5 @@
+const superb = require('superb')
+
 module.exports = {
   prompts() {
     return [
@@ -9,7 +11,7 @@ module.exports = {
       {
         name: 'description',
         message: 'How would you describe the new project',
-        default: `My ${require('superb')()} project`
+        default: `My ${superb()} project`
       },
       {
         name: 'author',
