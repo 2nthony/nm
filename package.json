@@ -30,5 +30,8 @@
   },
   "xo": {
     "extends": "rem"
+  },
+  "dependencies": {
+    "superb": "^3.0.0"
   }
 }

@@ -3326,6 +3326,13 @@ strip-outer@^1.0.0:
   dependencies:
     escape-string-regexp "^1.0.2"
 
+superb@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.npmjs.org/superb/-/superb-3.0.0.tgz#d29a17cf090f4658813c8debbb89033d3f1cf5bb"
+  integrity sha512-2N5f/nIVjOM5NimhLr9+KPPRo2OAtTVIxxshyOrBQsteUhCZJo7a+0I5TG/yt32v0hzOjXuxnUiHEWwYiPpVfg==
+  dependencies:
+    unique-random-array "^1.0.0"
+
 supports-color@^5.0.0, supports-color@^5.3.0:
   version "5.5.0"
   resolved "https://registry.npmjs.org/supports-color/-/supports-color-5.5.0.tgz#e2e69a44ac8772f78a1ec0b35b689df6530efc8f"
@@ -3511,6 +3518,18 @@ union-value@^1.0.0:
     get-value "^2.0.6"
     is-extendable "^0.1.1"
     set-value "^0.4.3"
+
+unique-random-array@^1.0.0:
+  version "1.0.1"
+  resolved "https://registry.npmjs.org/unique-random-array/-/unique-random-array-1.0.1.tgz#f29bda2a62be8860a703c4739c8f4fdb4d722cc7"
+  integrity sha512-z9J/SV8CUIhIRROcHe9YUoAT6XthUJt0oUyLGgobiXJprDP9O9dsErNevvSaAv5BkhwFEVPn6nIEOKeNE6Ck1Q==
+  dependencies:
+    unique-random "^1.0.0"
+
+unique-random@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.npmjs.org/unique-random/-/unique-random-1.0.0.tgz#ce3e224c8242cd33a0e77b0d7180d77e6b62d0c4"
+  integrity sha1-zj4iTIJCzTOg53sNcYDXfmti0MQ=
 
 unique-string@^1.0.0:
   version "1.0.0"
