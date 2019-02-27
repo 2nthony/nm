@@ -11,7 +11,7 @@ module.exports = {
       {
         name: 'description',
         message: 'How would you describe the new project',
-        default: `My ${superb()} project`
+        default: `My ${superb.random()} project`
       },
       {
         name: 'author',
