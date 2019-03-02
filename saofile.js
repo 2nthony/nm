@@ -84,13 +84,13 @@ module.exports = {
       {
         name: 'patreon',
         message: 'What is your Patreon username',
-        default: 'username',
+        default: ({ username }) => username,
         store: true,
         when: ({ badges }) => badges.includes('patreon')
       },
       {
         name: 'twitter',
-        message: 'What is your twitter username',
+        message: 'What is your Twitter username',
         store: true
       }
     ]
