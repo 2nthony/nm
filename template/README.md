@@ -9,7 +9,7 @@
 [![NPM download](https://badgen.net/npm/dm/<%= name %>)](https://npmjs.com/package/<%= name %>)
 <% } -%>
 <% if (badges.includes('license')) { -%>
-![NPM License](https://badgen.net/npm/license/<%= name %>)
+[![License](https://badgen.net/npm/license/<%= name %>)](./LICENSE)
 <% } -%>
 <% if (badges.includes('patreon')) { -%>
 [![buy me a coffee](https://badgen.net/badge/buy%20me%20a/coffee/a71)](https://patreon.com/<%= patreon %>)
