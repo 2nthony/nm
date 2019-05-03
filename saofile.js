@@ -44,7 +44,7 @@ module.exports = {
         message: 'Choose a ESLint tool',
         type: 'list',
         default: 'xo',
-        choices: ['xo', 'standard', 'disable']
+        choices: ['xo', 'standard', 'disabled']
       },
       {
         name: 'compile',
