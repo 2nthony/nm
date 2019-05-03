@@ -12,7 +12,7 @@
 [![License](https://badgen.net/npm/license/<%= name %>)](./LICENSE)
 <% } -%>
 <% if (badges.includes('patreon')) { -%>
-[![buy me a coffee](https://badgen.net/badge/buy%20me%20a/coffee/a71)](https://patreon.com/<%= patreon %>)
+[![donate](https://badgen.net/badge/support%20me/donate/f2a)](https://patreon.com/<%= patreon %>)
 <% } -%>
 
 ## Contributing
