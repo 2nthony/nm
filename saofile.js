@@ -59,7 +59,7 @@ module.exports = {
         default: [
           'npm-version',
           'npm-download',
-          'license',
+          'circleci',
           'patreon'
         ],
         choices: [
@@ -72,8 +72,8 @@ module.exports = {
             value: 'npm-download'
           },
           {
-            name: 'License',
-            value: 'license'
+            name: 'CircleCI',
+            value: 'circleci'
           },
           {
             name: 'Patreon',
