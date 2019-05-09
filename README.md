@@ -1,20 +1,24 @@
-# sao evillt/nm
+# sao-evillt-nm
 
-# Usage
+## Usage
 
-`evillt/nm` is a generator for [SAO](https://github.com/saojs/sao), install is first:
+`sao-evillt-nm` is a generator for [SAO](https://github.com/saojs/sao), install is first:
 
 ```sh
 yarn global add sao
+
 # Prefer npm
 npm i -g sao
 
 #####################
 
+# From npm
+sao evillt-nm my-project
+
 # From git
 sao evillt/nm my-project
 ```
 
-# License
+## License
 
 MIT © [evillt](https://github.com/evillt)
