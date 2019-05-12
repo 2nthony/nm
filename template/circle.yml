@@ -18,6 +18,3 @@ jobs:
           key: dependency-cache-{{ checksum "yarn.lock" }}
           paths:
             - ./node_modules
-      - run:
-          name: Release
-          command: npx semantic-release
