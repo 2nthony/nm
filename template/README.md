@@ -11,6 +11,8 @@
 <% if (badges.includes('circleci')) { -%>
 [![CircleCI](https://badgen.net/circleci/github/evillt/<%= name %>?icon=circleci)](https://circleci.com/gh/evillt/<%= name %>/tree/master)
 <% } -%>
+<% if (badges.includes('license')) { -%>
+[![License](https://badgen.net/npm/license/<%= name %>)](./LICENSE)
 <% if (badges.includes('patreon')) { -%>
 [![donate](https://badgen.net/badge/support%20me/donate/f2a)](https://patreon.com/<%= patreon %>)
 <% } -%>
