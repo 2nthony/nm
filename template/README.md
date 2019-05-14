@@ -2,6 +2,8 @@
 
 > <%= description %>
 
+Please consider starring the project to show your ❤️ and support.
+
 <% if (badges.includes('npm-version')) { -%>
 [![NPM version](https://badgen.net/npm/v/<%= name %>?icon=npm)](https://npmjs.com/package/<%= name %>)
 <% } -%>
