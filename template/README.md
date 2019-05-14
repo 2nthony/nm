@@ -3,10 +3,10 @@
 > <%= description %>
 
 <% if (badges.includes('npm-version')) { -%>
-[![NPM version](https://badgen.net/npm/v/<%= name %>)](https://npmjs.com/package/<%= name %>)
+[![NPM version](https://badgen.net/npm/v/<%= name %>?icon=npm)](https://npmjs.com/package/<%= name %>)
 <% } -%>
 <% if (badges.includes('npm-download')) { -%>
-[![NPM download](https://badgen.net/npm/dm/<%= name %>)](https://npmjs.com/package/<%= name %>)
+[![NPM download](https://badgen.net/npm/dm/<%= name %>?icon=npm)](https://npmjs.com/package/<%= name %>)
 <% } -%>
 <% if (badges.includes('circleci')) { -%>
 [![CircleCI](https://badgen.net/circleci/github/evillt/<%= name %>?icon=circleci)](https://circleci.com/gh/evillt/<%= name %>/tree/master)
