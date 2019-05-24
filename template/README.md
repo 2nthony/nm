@@ -16,8 +16,8 @@ Please consider starring the project to show your ❤️ and support.
 <% if (badges.includes('license')) { -%>
 [![License](https://badgen.net/npm/license/<%= name %>)](./LICENSE)
 <% } -%>
-<% if (badges.includes('patreon')) { -%>
-[![donate](https://badgen.net/badge/support%20me/donate/f2a)](https://patreon.com/<%= patreon %>)
+<% if (username === 'evillt') { -%>
+[![donate](https://badgen.net/badge/support%20me/donate/f2a)](https://donate.evila.me)
 <% } -%>
 
 ## Contributing

@@ -60,8 +60,7 @@ module.exports = {
           'npm-version',
           'npm-download',
           'circleci',
-          'license',
-          'patreon'
+          'license'
         ],
         choices: [
           {
@@ -79,19 +78,8 @@ module.exports = {
           {
             name: 'License',
             value: 'license'
-          },
-          {
-            name: 'Patreon',
-            value: 'patreon'
           }
         ]
-      },
-      {
-        name: 'patreon',
-        message: 'What is your Patreon username',
-        default: ({ username }) => username,
-        store: true,
-        when: ({ badges }) => badges.includes('patreon')
       },
       {
         name: 'twitter',
@@ -101,13 +89,16 @@ module.exports = {
     ]
   },
   actions() {
+    const { username } = this.answers
+
     return [
       {
         type: 'add',
         files: '**',
         filters: {
           'src/**': 'compile',
-          'index.js': '!compile'
+          'index.js': '!compile',
+          '.github/FUNDING.yml': username === 'evillt'
         }
       },
       {
