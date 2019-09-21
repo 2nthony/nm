@@ -32,6 +32,6 @@
     "extends": "rem"
   },
   "dependencies": {
-    "superb": "^3.0.0"
+    "superb": "^4.0.0"
   }
 }
